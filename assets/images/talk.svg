@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="softsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="50%" cy="40%" r="45%">
+      <stop offset="0%" stop-color="#f9a8d4" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#f9a8d4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#softsky)"/>
+  <ellipse cx="800" cy="350" rx="450" ry="280" fill="url(#warm)"/>
+  <!-- wooden bench -->
+  <rect x="480" y="580" width="640" height="30" rx="6" fill="#44403c"/>
+  <rect x="500" y="610" width="40" height="90" fill="#292524"/>
+  <rect x="1060" y="610" width="40" height="90" fill="#292524"/>
+  <rect x="520" y="560" width="560" height="20" rx="4" fill="#57534e"/>
+  <!-- two soft figures sitting (abstract) -->
+  <ellipse cx="680" cy="480" rx="40" ry="50" fill="#94a3b8" opacity="0.8"/>
+  <path d="M640 520 Q680 560 720 520 L740 600 L620 600 Z" fill="#64748b" opacity="0.75"/>
+  <ellipse cx="920" cy="480" rx="40" ry="50" fill="#e2e8f0" opacity="0.85"/>
+  <path d="M880 520 Q920 560 960 520 L980 600 L860 600 Z" fill="#cbd5e1" opacity="0.8"/>
+  <!-- flowers around bench -->
+  <circle cx="420" cy="650" r="16" fill="#f43f5e"/><circle cx="380" cy="670" r="12" fill="#a855f7"/>
+  <circle cx="1180" cy="640" r="15" fill="#ec4899"/><circle cx="1220" cy="660" r="13" fill="#fbbf24"/>
+  <circle cx="800" cy="700" r="14" fill="#22d3ee"/>
+  <!-- soft hanging vines -->
+  <path d="M200 0 Q250 200 180 400" stroke="#166534" stroke-width="6" fill="none" opacity="0.6"/>
+  <path d="M1400 0 Q1350 180 1420 380" stroke="#166534" stroke-width="5" fill="none" opacity="0.6"/>
+</svg>

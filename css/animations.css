@@ -1,0 +1,1 @@
+.fade-in{animation:pageIn .5s ease both}@keyframes pageIn{from{opacity:0;transform:translateY(12px) scale(.99)}to{opacity:1;transform:none}}

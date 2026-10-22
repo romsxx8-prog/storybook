@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#292524"/>
+      <stop offset="100%" stop-color="#1c1917"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#desk)"/>
+  <!-- wooden desk surface -->
+  <rect x="200" y="400" width="1200" height="400" rx="8" fill="#3f2a1a"/>
+  <rect x="200" y="400" width="1200" height="30" fill="#4a3423"/>
+  <!-- open diary -->
+  <rect x="480" y="280" width="280" height="360" rx="6" fill="#44403c" stroke="#78716c" stroke-width="4"/>
+  <rect x="840" y="280" width="280" height="360" rx="6" fill="#44403c" stroke="#78716c" stroke-width="4"/>
+  <!-- pages -->
+  <rect x="500" y="300" width="240" height="320" fill="url(#paper)"/>
+  <rect x="860" y="300" width="240" height="320" fill="url(#paper)"/>
+  <!-- handwriting lines -->
+  <g stroke="#a16207" stroke-width="2" opacity="0.6">
+    <line x1="520" y1="340" x2="720" y2="340"/><line x1="520" y1="380" x2="700" y2="380"/>
+    <line x1="520" y1="420" x2="710" y2="420"/><line x1="520" y1="460" x2="680" y2="460"/>
+    <line x1="520" y1="500" x2="720" y2="500"/><line x1="520" y1="540" x2="690" y2="540"/>
+    <line x1="880" y1="340" x2="1080" y2="340"/><line x1="880" y1="380" x2="1060" y2="380"/>
+    <line x1="880" y1="420" x2="1070" y2="420"/><line x1="880" y1="460" x2="1040" y2="460"/>
+    <line x1="880" y1="500" x2="1080" y2="500"/>
+  </g>
+  <!-- small dried flower on page -->
+  <circle cx="650" cy="580" r="16" fill="#be123c" opacity="0.8"/>
+  <line x1="650" y1="595" x2="650" y2="620" stroke="#166534" stroke-width="3"/>
+  <!-- soft lamp light -->
+  <ellipse cx="800" cy="200" rx="350" ry="150" fill="#fef3c7" opacity="0.15"/>
+  <!-- window at back -->
+  <rect x="100" y="80" width="180" height="240" rx="4" fill="#0f172a" stroke="#57534e" stroke-width="5"/>
+  <line x1="190" y1="80" x2="190" y2="320" stroke="#57534e" stroke-width="3"/>
+  <line x1="100" y1="200" x2="280" y2="200" stroke="#57534e" stroke-width="3"/>
+</svg>

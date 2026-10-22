@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <radialGradient id="softglow" cx="40%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#f9a8d4" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#f9a8d4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#dark)"/>
+  <ellipse cx="600" cy="450" rx="350" ry="250" fill="url(#softglow)"/>
+  <!-- trees silhouette -->
+  <path d="M100 900 L180 400 L260 900 Z" fill="#020617"/>
+  <path d="M300 900 L400 320 L500 900 Z" fill="#020617"/>
+  <path d="M1100 900 L1220 280 L1350 900 Z" fill="#020617"/>
+  <path d="M1400 900 L1480 450 L1560 900 Z" fill="#020617"/>
+  <!-- tall shadow figure (soft, not scary) -->
+  <ellipse cx="900" cy="380" rx="35" ry="50" fill="#1e293b" opacity="0.7"/>
+  <path d="M860 420 Q900 500 940 420 L960 700 L840 700 Z" fill="#1e293b" opacity="0.65"/>
+  <!-- soft outline glow -->
+  <ellipse cx="900" cy="380" rx="40" ry="55" fill="none" stroke="#a5b4fc" stroke-width="2" opacity="0.4"/>
+  <!-- white petal falling -->
+  <ellipse cx="750" cy="620" rx="14" ry="9" fill="#f8fafc" opacity="0.9" transform="rotate(15 750 620)"/>
+  <!-- ground -->
+  <path d="M0 720 Q400 680 800 710 T1600 690 L1600 900 L0 900 Z" fill="#052e16"/>
+  <!-- small glowing flowers near ground -->
+  <circle cx="400" cy="750" r="12" fill="#a855f7" opacity="0.7"/>
+  <circle cx="1200" cy="760" r="10" fill="#f43f5e" opacity="0.7"/>
+</svg>

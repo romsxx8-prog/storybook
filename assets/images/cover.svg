@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="50%" stop-color="#2d1b4e"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="house" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3d2b1f"/>
+      <stop offset="100%" stop-color="#1c120b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#f9a8d4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f9a8d4" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <ellipse cx="800" cy="380" rx="420" ry="180" fill="url(#glow)" filter="url(#soft)"/>
+  <!-- moon -->
+  <circle cx="1280" cy="140" r="48" fill="#fef3c7" opacity="0.9"/>
+  <circle cx="1265" cy="130" r="48" fill="#1a0a2e"/>
+  <!-- distant trees -->
+  <path d="M0 620 Q200 540 400 600 T800 580 T1200 610 T1600 570 L1600 900 L0 900 Z" fill="#0f172a"/>
+  <!-- garden base -->
+  <path d="M0 680 Q400 640 800 670 T1600 650 L1600 900 L0 900 Z" fill="#14532d"/>
+  <!-- colorful flowers clusters -->
+  <g opacity="0.9">
+    <circle cx="180" cy="720" r="18" fill="#f43f5e"/><circle cx="210" cy="710" r="14" fill="#ec4899"/>
+    <circle cx="250" cy="730" r="16" fill="#a855f7"/><circle cx="290" cy="715" r="12" fill="#fbbf24"/>
+    <circle cx="340" cy="740" r="15" fill="#f43f5e"/><circle cx="380" cy="720" r="13" fill="#22d3ee"/>
+    <circle cx="1200" cy="710" r="17" fill="#ec4899"/><circle cx="1240" cy="725" r="14" fill="#a855f7"/>
+    <circle cx="1280" cy="705" r="16" fill="#fbbf24"/><circle cx="1330" cy="730" r="13" fill="#f43f5e"/>
+    <circle cx="1380" cy="715" r="15" fill="#22d3ee"/><circle cx="1420" cy="740" r="12" fill="#ec4899"/>
+    <circle cx="700" cy="750" r="14" fill="#f43f5e"/><circle cx="740" cy="735" r="16" fill="#a855f7"/>
+    <circle cx="780" cy="755" r="12" fill="#fbbf24"/><circle cx="820" cy="740" r="15" fill="#22d3ee"/>
+  </g>
+  <!-- old house -->
+  <rect x="520" y="320" width="560" height="320" rx="8" fill="url(#house)"/>
+  <polygon points="500,330 800,180 1100,330" fill="#2a1a12"/>
+  <!-- windows with warm glow -->
+  <rect x="580" y="400" width="90" height="110" rx="4" fill="#fef3c7" opacity="0.85"/>
+  <rect x="720" y="400" width="90" height="110" rx="4" fill="#fde68a" opacity="0.7"/>
+  <rect x="860" y="400" width="90" height="110" rx="4" fill="#fef3c7" opacity="0.8"/>
+  <!-- door -->
+  <rect x="740" y="520" width="120" height="120" rx="4" fill="#1c120b"/>
+  <circle cx="830" cy="580" r="6" fill="#fbbf24"/>
+  <!-- climbing vines -->
+  <path d="M540 640 Q560 500 580 420" stroke="#166534" stroke-width="8" fill="none"/>
+  <path d="M1060 640 Q1040 480 1020 400" stroke="#166534" stroke-width="7" fill="none"/>
+  <!-- title glow text area suggestion -->
+  <text x="800" y="860" text-anchor="middle" fill="#fce7f3" font-family="Tahoma,sans-serif" font-size="28" opacity="0.7">خونه گل‌ها</text>
+</svg>

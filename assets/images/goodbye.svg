@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="kit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#0c0a09"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#kit)"/>
+  <!-- kitchen counter -->
+  <rect x="150" y="520" width="1300" height="40" rx="6" fill="#44403c"/>
+  <rect x="150" y="560" width="1300" height="200" fill="#292524"/>
+  <!-- window with soft light -->
+  <rect x="1050" y="120" width="320" height="280" rx="6" fill="#0f172a" stroke="#57534e" stroke-width="6"/>
+  <line x1="1210" y1="120" x2="1210" y2="400" stroke="#57534e" stroke-width="4"/>
+  <line x1="1050" y1="260" x2="1370" y2="260" stroke="#57534e" stroke-width="4"/>
+  <rect x="1070" y="140" width="120" height="100" fill="#1e3a5f" opacity="0.5"/>
+  <rect x="1230" y="140" width="120" height="100" fill="#1e3a5f" opacity="0.5"/>
+  <!-- lilac / yass branch -->
+  <g>
+    <line x1="700" y1="480" x2="700" y2="540" stroke="#166534" stroke-width="6"/>
+    <circle cx="680" cy="450" r="18" fill="#c084fc"/><circle cx="720" cy="440" r="16" fill="#a855f7"/>
+    <circle cx="700" cy="420" r="20" fill="#d8b4fe"/><circle cx="660" cy="470" r="14" fill="#c084fc"/>
+    <circle cx="740" cy="465" r="15" fill="#a855f7"/><circle cx="690" cy="480" r="12" fill="#e9d5ff"/>
+  </g>
+  <!-- small paper note -->
+  <rect x="780" y="470" width="120" height="80" rx="4" fill="#fef3c7" transform="rotate(-5 840 510)"/>
+  <g stroke="#a16207" stroke-width="1.5" opacity="0.7" transform="rotate(-5 840 510)">
+    <line x1="800" y1="495" x2="880" y2="495"/><line x1="800" y1="515" x2="870" y2="515"/>
+    <line x1="800" y1="535" x2="860" y2="535"/>
+  </g>
+  <!-- soft warm light from window -->
+  <ellipse cx="1210" cy="260" rx="200" ry="180" fill="#e0f2fe" opacity="0.12"/>
+</svg>

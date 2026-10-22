@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="endsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0c0a09"/>
+    </linearGradient>
+    <radialGradient id="heartglow" cx="50%" cy="45%" r="40%">
+      <stop offset="0%" stop-color="#f9a8d4" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#f9a8d4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#endsky)"/>
+  <ellipse cx="800" cy="400" rx="380" ry="280" fill="url(#heartglow)"/>
+  <!-- big soft heart -->
+  <path d="M800 620 
+           C650 480 480 420 480 320 
+           C480 240 560 200 640 240 
+           C700 270 760 320 800 380 
+           C840 320 900 270 960 240 
+           C1040 200 1120 240 1120 320 
+           C1120 420 950 480 800 620 Z" 
+        fill="#e11d48" opacity="0.85"/>
+  <!-- inner glow heart -->
+  <path d="M800 560 
+           C700 460 580 420 580 340 
+           C580 290 630 260 680 290 
+           C730 315 770 350 800 400 
+           C830 350 870 315 920 290 
+           C970 260 1020 290 1020 340 
+           C1020 420 900 460 800 560 Z" 
+        fill="#f9a8d4" opacity="0.5"/>
+  <!-- floating petals -->
+  <g opacity="0.7">
+    <ellipse cx="400" cy="300" rx="14" ry="9" fill="#f9a8d4" transform="rotate(20)"/>
+    <ellipse cx="1200" cy="280" rx="12" ry="8" fill="#c4b5fd" transform="rotate(-25)"/>
+    <ellipse cx="500" cy="500" rx="11" ry="7" fill="#fde68a" transform="rotate(10)"/>
+    <ellipse cx="1100" cy="520" rx="13" ry="8" fill="#f9a8d4" transform="rotate(-15)"/>
+    <ellipse cx="350" cy="600" rx="10" ry="6" fill="#a5b4fc"/>
+    <ellipse cx="1250" cy="580" rx="11" ry="7" fill="#f472b6"/>
+  </g>
+  <!-- soft text suggestion -->
+  <text x="800" y="780" text-anchor="middle" fill="#fce7f3" font-family="Tahoma,sans-serif" font-size="26" opacity="0.75">عشق هنوز اینجاست</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="morn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <radialGradient id="sunrise" cx="50%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#f9a8d4" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f9a8d4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#morn)"/>
+  <ellipse cx="800" cy="180" rx="500" ry="220" fill="url(#sunrise)"/>
+  <!-- ground -->
+  <path d="M0 550 Q400 510 800 540 T1600 520 L1600 900 L0 900 Z" fill="#166534"/>
+  <!-- heart shape made of flowers -->
+  <g>
+    <!-- left lobe -->
+    <circle cx="620" cy="480" r="28" fill="#f43f5e"/><circle cx="580" cy="450" r="24" fill="#ec4899"/>
+    <circle cx="560" cy="500" r="22" fill="#e11d48"/><circle cx="600" cy="520" r="20" fill="#f472b6"/>
+    <circle cx="640" cy="440" r="18" fill="#db2777"/>
+    <!-- right lobe -->
+    <circle cx="980" cy="480" r="28" fill="#f43f5e"/><circle cx="1020" cy="450" r="24" fill="#ec4899"/>
+    <circle cx="1040" cy="500" r="22" fill="#e11d48"/><circle cx="1000" cy="520" r="20" fill="#f472b6"/>
+    <circle cx="960" cy="440" r="18" fill="#db2777"/>
+    <!-- bottom point -->
+    <circle cx="800" cy="560" r="26" fill="#be123c"/><circle cx="760" cy="540" r="20" fill="#f43f5e"/>
+    <circle cx="840" cy="540" r="20" fill="#f43f5e"/><circle cx="800" cy="600" r="22" fill="#e11d48"/>
+    <circle cx="780" cy="630" r="16" fill="#ec4899"/><circle cx="820" cy="630" r="16" fill="#ec4899"/>
+    <circle cx="800" cy="660" r="14" fill="#db2777"/>
+    <!-- extra colorful -->
+    <circle cx="700" cy="500" r="14" fill="#a855f7"/><circle cx="900" cy="500" r="14" fill="#a855f7"/>
+    <circle cx="750" cy="480" r="12" fill="#fbbf24"/><circle cx="850" cy="480" r="12" fill="#fbbf24"/>
+  </g>
+  <!-- soft petals around -->
+  <g opacity="0.6">
+    <circle cx="400" cy="400" r="10" fill="#f9a8d4"/><circle cx="1200" cy="420" r="11" fill="#c4b5fd"/>
+    <circle cx="500" cy="650" r="9" fill="#fde68a"/><circle cx="1100" cy="670" r="10" fill="#f9a8d4"/>
+  </g>
+</svg>
